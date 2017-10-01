@@ -64,7 +64,7 @@ function Line(coefficents, graph){
  	cols = floor(width/w);
  	rows = floor(height/w);
 
- 	var input = prompt("What equation would you like graphed?");
+ 	var input = prompt("What equation would you like graphed? (Linear equation in the form y=mx+b please");
  	var coefficents = parseEquation(input);
 
  	var graph = new Graph(cols, rows);
